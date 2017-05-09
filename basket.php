@@ -69,7 +69,11 @@ $totalP = 0;
 <?php endif; ?>
 
 
-
+	<button id="b"><a href="index.php">Home</a></button>
+	<script>
+		var a = document.getElementById("b");
+		a.onclick = function() { alert("Thanks for buying")};
+	</script>
 
 
 </body>

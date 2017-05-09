@@ -32,7 +32,7 @@ Price
 <tr>
 <td><?php echo($key) ?></td>
 <td>
-<input style="width: 40px;" type="number" name=<?php echo($key) ?>>
+<input style="width: 40px;" type="number" name="<?php echo($key) ?>">
 </td>
 <td><?php echo($prod[$key]." $") ?></td>
 </tr>

@@ -12,7 +12,7 @@
 function deleteProd()
 {
 	if(isset($_GET["delete"])) {
-		unset($_SESSION($_GET["delete"]));
+		unset($_SESSION[$_GET["delete"]]);
 	}
 }
 

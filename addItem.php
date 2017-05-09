@@ -5,7 +5,7 @@ if(isset($_POST["crisps"]) || isset($_POST["Beer"]) || isset($_POST["cookies"]) 
 		if((int)$value > 0) {
 			$_SESSION[$key] = (int)$value;
 		} else {
-			header("Location: 1.php?nothingChosen=1");
+			header("Location: index.php?nothingChosen=1");
 			exit;
 		}
 	}

@@ -34,7 +34,7 @@ Price
 <td>
 <input style="width: 40px;" type="number" name=<?php echo($key) ?>>
 </td>
-<td><?php echo($price[$key]." $") ?></td>
+<td><?php echo($prod[$key]." $") ?></td>
 </tr>
 
 <?php endforeach; ?>

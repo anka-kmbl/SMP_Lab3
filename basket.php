@@ -63,7 +63,7 @@ $totalP = 0;
 </table>
 
 <?php else: ?>
-	<a href="1.php">Go to the putchase of goods</a>
+	<a href="index.php">Go to the putchase of goods</a>
 <?php endif; ?>
 
 

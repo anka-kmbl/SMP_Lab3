@@ -12,7 +12,7 @@
 <li><a href="basket.php">Basket</a></li>
 </ul>
 </div>
-<form action="addItem.php" method="POST">
+<form action="addItem.php" method="post">
 <table>
 <tr>
 <th>

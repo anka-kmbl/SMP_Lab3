@@ -59,7 +59,7 @@ $totalP = 0;
 <th>Total price</th>
 <th></th>
 <th></th>
-<th><?php echo($totalPrice." $") ?></th>
+<th><?php echo($totalP." $") ?></th>
 <th></th>
 </tr>
 </table>

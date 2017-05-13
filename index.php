@@ -6,7 +6,7 @@
 <title>Shop</title>
 </head>
 <body>
-<?php include header.php ?>
+<?php include 'header.php'; ?>
 <form action="addItem.php" method="post">
 <table>
 <tr>
@@ -50,6 +50,6 @@ Price
 	<h3>Check input, please!</h3>
 <?php endif; ?>
 </form>
-<?php include footer.php ?>
+<?php include 'footer.php'; ?>
 </body>
 </html>

@@ -7,7 +7,7 @@
 </head>
 <body>
 <?php include 'header.php'; ?>
-<p>LALALALAL</p>
+
 <form action="addItem.php" method="post">
 <table>
 <tr>

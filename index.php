@@ -6,12 +6,7 @@
 <title>Shop</title>
 </head>
 <body>
-<div id="header">
-<ul id="navbar">
-<li><a href="#">Home</a></li>
-<li><a href="basket.php">Basket</a></li>
-</ul>
-</div>
+<?php include header.php ?>
 <form action="addItem.php" method="post">
 <table>
 <tr>
@@ -55,10 +50,6 @@ Price
 	<h3>Check input, please!</h3>
 <?php endif; ?>
 </form>
-<div id="footer">
-<ul id="navF">
-<li><a href="#">Home</a></li>
-</ul>
-</div>
+<?php include footer.php ?>
 </body>
 </html>

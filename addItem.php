@@ -6,7 +6,7 @@ if(isset($_POST["crisps"]) || isset($_POST["Beer"]) || isset($_POST["cookies"]) 
 	foreach($_POST as $key => $value) {
 		if((int)$value > 0) {
 			$_SESSION[$key] = (int)$value;
-			$check = true;
+			
 		} else {
 			header("Location: index.php?nothingChosen=1");
 			exit;

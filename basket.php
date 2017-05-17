@@ -34,7 +34,9 @@ $totalP = 0;
 </tr>
 
 <?php foreach ($_SESSION as $key => $value): ?>
-
+<?php if($key == "username" || $key == "password" || $key == "check" || $key == "date" || $key == "personName" || $key == "surname" || $key == "age" || $key == "information"): ?>
+	<?php continue; ?>
+<?php else: ?>
 <tr>
 <th><?php echo($key) ?></th>
 <th><?php echo($prod[$key]." $") ?></th>
@@ -53,6 +55,7 @@ $totalP = 0;
 </form>
 </th>
 </tr>
+<?php endif; ?>
 <?php endforeach; ?>	
 
 <tr>
@@ -65,7 +68,7 @@ $totalP = 0;
 </table>
 
 <?php else: ?>
-	<a href="index.php">Go to the putchase of goods</a>
+	<a href="index.php">Go to the purchase of goods</a>
 <?php endif; ?>
 
 

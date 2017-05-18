@@ -40,7 +40,7 @@ else if(isset($_SESSION["ok"])) {
 }
 
 ?>
-<?php echo count($infArr);?>
+
 
 
 <?php if(isset($infArr["personName"]) && isset($infArr["surname"]) && isset($infArr["age"]) && isset($infArr["information"])) {
@@ -66,7 +66,7 @@ Brief Info: <input type="text" name="information" value="<?php echo $info; ?>"><
 </form>
 
 
-
+<a href="index.php">Home</a>
 
 </body>
 </html>

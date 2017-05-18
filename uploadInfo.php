@@ -1,7 +1,9 @@
 <?php
 	session_start();
  if (isset($_POST["personName"]) && isset($_POST["surname"]) && isset($_POST["information"]) && isset($_POST["age"])) {
-if((int)$_POST["age"] < 16 || strlen($_POST["personName"]) < 1 || strlen($_POST["surname"]) < 1 || strlen($_POST["information"]) < 50) {
+ 	//$check = (int)$_POST["personName"];
+    
+if((int)$_POST["age"] < 16 || strlen($_POST["personName"]) < 1 || strlen($_POST["surname"]) < 1 || strlen($_POST["information"]) < 50 ) {
 	 header("Location: profile.php?inpErr=1");
 	 exit;
 }

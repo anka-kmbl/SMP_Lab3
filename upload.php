@@ -1,5 +1,5 @@
 <?php
-$target_dir = "C:\Server\data\htdocs\SMP_Lab3";
+$target_dir =  $_SERVER['DOCUMENT_ROOT'];
 $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
 $uploadOk = 1;
 $imageFileType = pathinfo($target_file,PATHINFO_EXTENSION);
